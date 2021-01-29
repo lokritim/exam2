@@ -1,0 +1,85 @@
+What is a Class and what is an Object?
+class is a bleuprint of an object , contain the variables and define the behavior of an object .
+object is instance of a class . 
+
+What is a constructor and what are their types ?
+is a special method that is used to initialize objects.
+default constructor without any parameters , and Parameterized constructor with parameters or arguments . 
+
+Write the code for a public default constructor for a class called " Office "
+
+public Office (){
+// body
+}
+
+What does the implements keyword do?
+implements interface
+
+What three places is the final keyword used in?
+
+class , method , attribute .
+
+Name the 4 concepts of object-oriented Programming
+encapsulation , abstraction , inheritance ,polymorphism .
+
+What is the first thing that runs when a class is instantiated?
+constructor .
+
+a) when a method is overloaded ,is it in the same class,or a different class? b) can it have the same Parameters
+same class .
+should have different number or type of parameters.
+
+What is the different between Interface & Abstract ?
+
+abstract has variables , also could may have or not has abstract methods , could has constructor , also we can implement only one abstract class .
+interface has only abstract method , and could not be instanciaited , and we can implement many interfaces on the same class.
+
+what does the void keyword mean? Where is it used??
+void means the method will not return any value ,
+mostly use on main function , or for execution code withoud a need of a return value ;
+
+What is overloading? How is it done?
+overloading is when we create methods on the same class with different type or number of parametres ;
+
+How do you override a static method in java?
+we cant override a static methode in java .
+
+Write a for each loop(also called Enhanced for loop)Which iterates over a collection called “allVehicles” which contains objects of type “Vehicle”.
+
+        for (vehicle v : allVehicles) {
+            System.out.println("Item: " + v);
+        } 
+ 
+
+a)What are access modifiers in Java? b)What is the difference between a local variable and an instance variable?
+
+public , protected , default , private .
+local variable is the variable declared inside a method,
+instance variable is the class attribute .
+
+
+a) Differentiate between the constructors and methods in Java? b)What is the difference between this() and super() in Java?
+constructor has the same name of the class and public , the methode should have a different name than the class and any access modifiers type .
+this refer to the same class and super refer to the parent .
+
+What is method overloading and method overriding?With Example Program
+
+overloading same method with different parametres ,
+public void exp(){
+}
+
+public void exp(String word){
+}
+
+overriding is the same method with same signature and different body .
+
+public int exp(int a){
+ return a+1;
+}
+
+public void exp(int a ){
+ return a;
+}
+
+
+
